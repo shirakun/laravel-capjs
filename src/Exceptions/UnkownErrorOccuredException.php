@@ -1,6 +1,5 @@
 <?php
-
-namespace Coderflex\LaravelTurnstile\Exceptions;
+namespace Shirakun\LaravelCapjs\Exceptions;
 
 use Exception;
 

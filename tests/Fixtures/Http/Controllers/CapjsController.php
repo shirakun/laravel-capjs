@@ -1,8 +1,7 @@
 <?php
+namespace Shirakun\LaravelCapjs\Tests\Fixtures\Http\Controllers;
 
-namespace Coderflex\LaravelTurnstile\Tests\Fixtures\Http\Controllers;
-
-class TurnstileController extends Controller
+class CapjsController extends Controller
 {
     public function index()
     {
@@ -10,7 +9,7 @@ class TurnstileController extends Controller
             <form action="" method="post">
                 <input type="text" name="name"/>
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                <x-turnstile-widget/>
+                <x-capjs-widget/>
             </form>
         HTML;
     }

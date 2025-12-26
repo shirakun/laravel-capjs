@@ -1,19 +1,18 @@
 {
-    "name": "coderflex/laravel-turnstile",
-    "description": "A package to help you implement the Cloudflare turnstile \"CAPTCHA Alternative\"",
+    "name": "shirakun/laravel-capjs",
+    "description": "A package to help you implement the cap.js (CAP Worker Service) CAPTCHA alternative",
     "keywords": [
-        "Coderflex",
+        "shirakun",
         "laravel",
-        "laravel-turnstile",
-        "cloudflare",
-        "turnstile"
+        "laravel-capjs",
+        "cap.js",
+        "captcha"
     ],
-    "homepage": "https://github.com/coderflexx/laravel-turnstile",
+    "homepage": "https://github.com/shirakun/laravel-capjs",
     "license": "MIT",
     "authors": [
         {
-            "name": "ousid",
-            "email": "oussama@coderflex.com",
+            "name": "shirakun",
             "role": "Developer"
         }
     ],
@@ -36,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Coderflex\\LaravelTurnstile\\": "src/",
-            "Coderflex\\LaravelTurnstile\\Database\\Factories\\": "database/factories/"
+            "Shirakun\\LaravelCapjs\\": "src/",
+            "Shirakun\\LaravelCapjs\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Coderflex\\LaravelTurnstile\\Tests\\": "tests/"
+            "Shirakun\\LaravelCapjs\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -62,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Coderflex\\LaravelTurnstile\\LaravelTurnstileServiceProvider"
+                "Shirakun\\LaravelCapjs\\LaravelCapjsServiceProvider"
             ],
             "aliases": {
-                "LaravelTurnstile": "Coderflex\\LaravelTurnstile\\Facades\\LaravelTurnstile"
+                "LaravelCapjs": "Shirakun\\LaravelCapjs\\Facades\\LaravelCapjs"
             }
         }
     },

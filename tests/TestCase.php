@@ -1,9 +1,8 @@
 <?php
+namespace Shirakun\LaravelCapjs\Tests;
 
-namespace Coderflex\LaravelTurnstile\Tests;
-
-use Coderflex\LaravelTurnstile\LaravelTurnstileServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Shirakun\LaravelCapjs\LaravelCapjsServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -15,7 +14,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            LaravelTurnstileServiceProvider::class,
+            LaravelCapjsServiceProvider::class,
         ];
     }
 

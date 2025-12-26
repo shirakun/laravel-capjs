@@ -1,6 +1,5 @@
 <?php
-
-namespace Coderflex\LaravelTurnstile\Tests\Fixtures\Http\Controllers;
+namespace Shirakun\LaravelCapjs\Tests\Fixtures\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Validation\ValidatesRequests;
