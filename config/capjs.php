@@ -15,6 +15,8 @@ return [
 
     'capjs_secret_key' => env('CAPJS_SECRET_KEY', null),
 
+    'capjs_script_url' => env('CAPJS_SCRIPT_URL', 'https://captcha.gurl.eu.org/cap.min.js'),
+
     'capjs_api_endpoint' => env('CAPJS_API_ENDPOINT', 'https://captcha.gurl.eu.org/api/validate'),
 
     /*
