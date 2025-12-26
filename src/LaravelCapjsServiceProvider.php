@@ -10,9 +10,9 @@ class LaravelCapjsServiceProvider extends PackageServiceProvider
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('capjs')
+            ->name('laravel-capjs')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasViewComponent('capjs-widget', CapjsWidget::class);
+            ->hasViews('capjs')
+            ->hasViewComponent('', CapjsWidget::class);
     }
 }
