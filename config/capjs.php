@@ -19,6 +19,8 @@ return [
 
     'capjs_api_endpoint' => env('CAPJS_API_ENDPOINT', 'https://captcha.gurl.eu.org/api/validate'),
 
+    'capjs_widget_api_endpoint' => env('CAPJS_WIDGET_API_ENDPOINT', 'https://captcha.gurl.eu.org/api/'),
+
     /*
     |--------------------------------------------------------------------------
     | Error Messages

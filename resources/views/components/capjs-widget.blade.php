@@ -1,5 +1,5 @@
 @props([
-    'apiEndpoint' => 'https://captcha.gurl.eu.org/api/',
+    'apiEndpoint' => config('capjs.capjs_widget_api_endpoint', 'https://captcha.gurl.eu.org/api/'),
     'theme' => 'light',
     'size' => 'normal',
     'shape' => 'square',
