@@ -11,7 +11,7 @@ it('returns success message', function () {
     $this->assertStringContainsString(
         '<x-capjs-widget/>', $response->getContent()
     ) || $this->assertStringContainsString(
-        '<cap-widget', $response->getContent()
+        '<capjs-widget', $response->getContent()
     );
 
     $response->assertOk();
